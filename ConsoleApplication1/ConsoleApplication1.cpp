@@ -37,7 +37,7 @@ int main() {
     for (int i = xind + 1; i < yind; ++i) {
         product *= arr[i];
     }
-    
+    //
 
     std::cout << "Произведение " << product << std::endl;
 
