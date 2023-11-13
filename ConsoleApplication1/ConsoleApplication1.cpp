@@ -14,6 +14,7 @@ int main() {
         arr[i] = rand() % 10    ; 
     }
     
+    std::cout << "something new" << std::endl;
 
     for (int i = 0; i < size; i++) {
         std::cout << "элемент " << arr[i] << std::endl;
